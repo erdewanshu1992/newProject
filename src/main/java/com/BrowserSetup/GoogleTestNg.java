@@ -8,7 +8,8 @@ public class GoogleTestNg {
 	@Test
 	public void browserLaunch() {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.google.co.in/");
+		//driver.get("https://www.google.co.in/");
+		driver.get("https://www.yesmadam.com/");
 	}
 
 }
